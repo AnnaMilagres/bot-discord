@@ -5,7 +5,7 @@ import smtplib
 import email.message
 import asyncio
 import csv
-server_id=1121906304101916822
+server_id=1122220450492199005
 chaves = {}
 intents = discord.Intents.default() 
 client = discord.Client(intents=intents)
@@ -113,4 +113,4 @@ def verificar_email(email):
                     return arquivo
 
     return None
-bot.run('MTEyMTkwODUyOTY0MTU2MjE3Mg.GZnlgF.jpOcLVpljByONtEicaWUNm1XKCs-7yMup9PGN8')
+bot.run('MTExNTk1NzY2NTkxMTI4Nzg4OQ.G86SU1.fG_EHTX3c59NNEtYG4RknQo1cvbB7aoVuukxug')
